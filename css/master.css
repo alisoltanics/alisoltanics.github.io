@@ -3,6 +3,9 @@
   padding-left: 10px;
   padding-rigth: 10px;
 }
+.container1{
+  padding-bottom: 12px;
+}
 .prj{
   font-size: 36px;
 }
@@ -11,4 +14,17 @@
 }
 .al{
   font-family: 'Prosto One', cursive;
+  color: black;
+}
+.main{
+  background-image: url("../44.jpg");
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+#link{
+  text-decoration: underline;
 }
