@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: #9e9e9e!important;
 }
 .sk{
   font-size: 17px;
@@ -17,17 +17,30 @@ body{
 }
 .al{
   font-family: 'Prosto One', cursive;
-  color: black;
+  color: #262626;
 }
 .main{
   background-image: url("../44.jpg");
-  height: 650px;
   width: 100%;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
-#link{
+#link a{
   text-decoration: underline;
+}
+#link a:hover{
+  text-decoration: none;
+}
+#link{
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #333333;
+  padding: 8px;
+  border-radius: 4px;
+}
+h2{
+  color: #262626;
 }
