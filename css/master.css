@@ -30,9 +30,6 @@ body{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
-#link a{
-  text-decoration: underline;
-}
 #link a:hover{
   text-decoration: none;
 }
